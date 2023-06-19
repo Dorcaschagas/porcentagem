@@ -19,7 +19,6 @@ h1{
 .porcentagem{
     position: relative;
     border: 2px solid;
-    /* width: 100vh; */
     height: 150px;
     padding: 5px;
     display: flex;
