@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;600&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Vibur&family=Ysabeau:ital,wght@0,100;0,300;0,400;1,100;1,200;1,400&display=swap'); --> roboto
+
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +12,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poltawski Nowy', serif, 'Roboto Mono', monospace,'Vibur', cursive, 'Ysabeau', sans-serif ;
 }
 
 h1{
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 10px;
 }
 
@@ -27,10 +31,34 @@ h1{
     align-items: center;
 }
 
+.mais{
+    width:100%;
+    padding: 10px;
+}
+
+.Curiosidade{
+    margin-top: 50%;
+    background-color: forestgreen;
+    color: white;
+}
+p{
+    margin-top: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
 h3{
     width: 20%;
     font-size: .8rem;
     font-weight: 400;
+}
+
+span{
+    background-color: rgb(45, 67, 3);
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    padding: 3px;
 }
 
 .input{
